@@ -2488,6 +2488,7 @@ button.small,
   -webkit-animation: reveal-header 0.5s;
   -ms-animation: reveal-header 0.5s;
   animation: reveal-header 0.5s;
+  padding-bottom: 2em;
 }
 
 #header.alt {
@@ -2944,7 +2945,6 @@ body.index #main {
 
   header.special {
     margin-bottom: 4em;
-    padding-top: 5em;
   }
 
   header.special:before,
