@@ -1323,6 +1323,10 @@ blockquote {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 60px;
   }
+
+  .wrapper.style2 {
+    background-size: contain;
+  }
 }
 
 @media screen and (max-width: 840px) {
@@ -1978,6 +1982,7 @@ input[type="email"] {
 .image.featured img {
   display: block;
   width: 100%;
+  height: 16em;
 }
 
 /* Icon */
@@ -2299,11 +2304,11 @@ button.small,
 }
 
 .wrapper.style2 {
-  background-color: #83d3c9;
-  background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-  background-position: bottom left, bottom right;
+  background-color: darksalmon;
+  background-image: url("images/lake.jpg");
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat, no-repeat;
-  background-size: 25em, 25em;
   color: #fff;
 }
 
@@ -2705,7 +2710,7 @@ button.small,
 }
 
 body.index #main {
-  padding-top: 5em;
+  padding-top: 2em;
 }
 
 /* CTA */
@@ -2897,7 +2902,7 @@ body.index #main {
   }
 
   .wrapper.style2 {
-    background-size: 15em;
+    background-size: cover;
   }
 
   .wrapper.style4 {
@@ -3345,7 +3350,7 @@ body.index #main {
   }
 
   .wrapper.style2 {
-    background-size: 10em;
+    background-size: cover;
     padding: 2.25em 1.5em;
   }
 
@@ -3434,4 +3439,8 @@ body.index #main {
 
 .fas {
   font-size: 5em;
+}
+
+.font-border {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
